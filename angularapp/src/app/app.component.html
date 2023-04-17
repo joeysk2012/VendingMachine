@@ -1,35 +1,3 @@
 <h1 id="tableLabel">Vending Machine</h1>
 
-<p>Please complete the form to buy.</p>
-
-<form (submit)="onSubmit()">
-    <div>
-        <label>
-            Soda:
-            <input type="number" [(ngModel)]="soda" name="soda" min="0" required>
-        </label>
-    </div>
-        <label>
-            Candy bar:
-            <input type="number" [(ngModel)]="candyBar" name="candyBar" min="0" required>
-        </label>
-    <div>
-        <label>
-            Chips:
-            <input type="number" [(ngModel)]="chips" name="chips" min="0" required>
-        </label>
-    </div>
-    <div>
-        <label>
-            Name:
-            <input type="text" [(ngModel)]="name" name="name" required>
-        </label>
-        <label>
-            Credit card number:
-            <input type="text" [(ngModel)]="creditCardNumber" name="creditCardNumber" required>
-        </label>
-        <button type="submit">Buy</button>
-        <div *ngIf="purchaseStatus" style="color: green;">success</div>
-        <div *ngIf="!purchaseStatus" style="color: red;">{{purchaseErrorMessage}}</div>
-    </div>
-</form>
+<app-purchase></app-purchase>

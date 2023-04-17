@@ -5,3 +5,5 @@ transactionId, dateTime, total, cart, name, ccnum
 ab44a412-153e-43c1-924d-f93bbfcfcf63, 4/16/2023 3:02:52 PM, 4.69, Soda:2,CandyBar:3,Chips:1, James, NDU2Nzg=
 21bce081-810d-4b43-bfac-b224967f6d20, 4/16/2023 3:09:38 PM, 1.80, CandyBar:3, Jim, MDk4NzU=
 8b08c9db-4c98-4acf-a2c1-9f3af5d86979, 4/16/2023 3:09:52 PM, 1.80, CandyBar:3, Jim, MjUxNDU1
+5a756f9f-b1a2-4a8c-9f98-7ff4e161bc7a, 4/16/2023 5:28:31 PM, 0.95, Soda:1, Joe, MTIzNDU=
+4806f4eb-b235-4706-a1bc-73b97b0127ba, 4/16/2023 5:29:04 PM, 1.20, CandyBar:2, Jimmy, NTQ3MzQ1NzYzNDU2NA==
